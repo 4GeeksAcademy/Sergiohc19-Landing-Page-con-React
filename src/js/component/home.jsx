@@ -7,6 +7,7 @@ import Footer from "./Footer";
 //create your first component
 const Home = () => {
 	return (
+
 		<div className="container-fluid p-0" >
 			<div className="row">
 				<Navbar />
@@ -26,6 +27,7 @@ const Home = () => {
 				<Footer />
 			</div>
 		</div>
+
 	);
 };
 

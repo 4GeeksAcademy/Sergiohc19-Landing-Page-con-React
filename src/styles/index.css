@@ -10,6 +10,13 @@
 
 */
 
+*,
+*::before,
+*::after {
+  box-sizing: Content-box;
+}
+
+
 .btn {
   border-bottom: 1px solid hsla(0, 0%, 100%, 0.2);
   text-shadow: 0 1px 0 hsla(0, 0%, 0%, 0.2);
@@ -50,13 +57,9 @@
   background-color: rgba(228, 228, 228, 0.795);
 }
 
-
 .image-container {
-
   justify-content: center;
   background-position: center;
-
-
   position: relative;
   width: 420px;
   height: 325px;
